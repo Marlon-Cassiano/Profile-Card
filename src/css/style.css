@@ -1,0 +1,64 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: "kumbh sans", sans-serif;
+    font-size: 18px;
+}
+
+hr {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: whitesmoke;
+    color: #000;
+    border-radius: 10px;
+    margin: 150px;
+    width: 330px;
+    height: 350px;
+}
+
+.card .perfil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    height: 100%;
+}
+
+.card .perfil img{
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.card .perfil-inf{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.card .perfil .idade, 
+.card .perfil .cidade,
+.perfil-inf .conter-type {
+    color: lightgray;
+}
+
+.card .perfil p,
+.perfil-inf .info .counter{
+    font-weight: 700
+}
